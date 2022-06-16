@@ -37,7 +37,7 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className="head-text">Take a coffee & chat with me</h2>
+      <h2 className="head-text">Take a <span>coffee</span> & <span>chat </span>with <span>me</span></h2>
 
     
       <div className="app__footer-cards">
@@ -70,7 +70,7 @@ const Footer = () => {
         <button type="button" className="p-text" onClick={handleSubmit}>{loading ? 'Sending...' : 'Send Message'}</button>
       </div>
       : <div>
-          <h3 className="head-text">Thank you for getting in touch!</h3>
+          <h3 className="head-text">Thank <span>you</span> for getting in touch !</h3>
       </div>}
     </>
   )
